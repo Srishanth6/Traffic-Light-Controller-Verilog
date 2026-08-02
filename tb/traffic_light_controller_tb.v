@@ -1,5 +1,4 @@
 `timescale 1ns/1ps
-
 module traffic_light_controller_tb;
 
     // Inputs to DUT

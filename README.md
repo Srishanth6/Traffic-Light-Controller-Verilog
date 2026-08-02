@@ -1,7 +1,15 @@
-# Traffic-Light-Controller-Verilog
-Moore FSM-based Traffic Light Controller designed using Verilog HDL with timer-controlled state transitions.
-## Simulation Waveform
+## FSM Design
 
-The simulation waveform below verifies the operation of the Moore FSM-based traffic light controller.
+The traffic light controller is implemented using a four-state Moore Finite State Machine (FSM).
 
-![Traffic Light Controller Simulation Waveform](traffic_light_controller.jpeg)
+### State Diagram
+
+![Moore FSM State Diagram](state_diagram.jpeg)
+
+### State Transition Table
+
+![State Transition Table](state_transition_table.jpeg)
+
+### Output Table
+
+![Moore FSM Output Table](output_table.jpeg)

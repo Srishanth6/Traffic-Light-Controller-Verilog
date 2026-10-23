@@ -13,3 +13,11 @@ The traffic light controller is implemented using a four-state Moore Finite Stat
 ### Output Table
 
 ![Moore FSM Output Table](output_table.jpeg)
+
+## How to Simulate
+
+```sh
+iverilog -o traffic_light_controller.vvp rtl/traffic_light_controller.v tb/traffic_light_controller_tb.v
+vvp traffic_light_controller.vvp      # writes traffic_light_controller.vcd
+gtkwave traffic_light_controller.vcd
+```
